@@ -11,27 +11,54 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="menu">
-        <a href="" class="menu__logo-link">
-            <img src="img/logo.png" alt="#" class="menu__logo-img">
-        </a>
-        <div class="menu__items">
-            <ul class="menu__list">
-                <li class="menu__list-items">
-                    <a href="#" class="menu__list-link">Home</a>
-                </li>
-                <li class="menu__list-items">
-                    <a href="#" class="menu__list-link">Services</a>
-                </li>
-                <li class="menu__list-items">
-                    <a href="#" class="menu__list-link">About us</a>
-                </li>
-                <li class="menu__list-items">
-                    <a href="#" class="menu__list-link">Extra Salespage</a>
-                </li>
-            </ul>
-            <button class="menu__btn">Get your free guide now</button>
-        </div>
-    </nav>
+    <div class="container">
+        <header class="header">
+            <nav class="menu">
+                <a href="#" class="menu__logo-link">
+                    <img src="img/logo.png" alt="#" class="menu__logo-img">
+                </a>
+                <div class="menu__items">
+                    <ul class="menu__list">
+                        <li class="menu__list-items">
+                            <a href="#" class="menu__list-link">Home</a>
+                        </li>
+                        <li class="menu__list-items">
+                            <a href="#" class="menu__list-link">Services</a>
+                        </li>
+                        <li class="menu__list-items">
+                            <a href="#" class="menu__list-link">About us</a>
+                        </li>
+                        <li class="menu__list-items">
+                            <a href="#" class="menu__list-link">Extra Salespage</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn_menu">Get your free guide now</button>
+                </div>
+            </nav>
+        </header>
+        <section class="promo">
+            <img src="icons/wave_green.svg" alt="#" class="promo__icon">
+            <div class="promo__wrapper">
+                <div class="promo__info">
+                    <div class="promo__descr">Proven strategies backed by science for success.</div>
+                    <h1 class="promo__header">Live life at the full potential</h1>
+                    <p class="promo__text">I help people to discover their true potential and live a fulfilling life...
+                        Discover the simple 3 steps that I discovered to hack productivity. It just works and it is begin using backed by science. Wanna transform your life?</p>
+                    <button class="btn promo__btn">Get your free guide now</button>
+                </div>
+                <div class="promo__illustr">
+                    <picture class="promo__picture">
+                        <source media="(max-width: 577px)" srcset="img/pexels-andrea-piacquadio-3978564 1.jpg" class="promo__img">
+                        <img src="img/pexels-andrea-piacquadio-3978564 1.jpg" alt="#" class="promo__img">
+                    </picture>
+                    <div class="promo__picture-descr">
+                        <img src="icons/crosshair.svg" alt="#" class="promo__picture-cross">
+                        <div class="promo__picture-title">100%</div>
+                        <div class="promo__picture-sign">Success rate this year</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
